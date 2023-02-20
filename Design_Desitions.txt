@@ -1,0 +1,9 @@
+Design decitions
+
+Most of the subsystems have either ether cat or ethernet built in, so I used that communication system as the base. Since the pneumatic systems don’t seem to have an ethernet port we would need to add ADCs and DACs with ethernet connection to send over and receive the low-level information.
+
+Since the Pneumatic system is meant to hold the sheets of metal while the arm forms it into the correct shape, it only needs to be activated before and after the robotic system moves. I would move it onto a different system.
+
+Every other system helps the robotic arm move and read either how much pressure the arm is imposing(load cell) or reading how much it has deformed the sheet(laser scanner) or to switch the different size ends for the different requirements in the formation of the sheet(ATI toolchanger).
+
+For the BOM I added some basic formulas for easy calculation of total values and to see what items might be the most expensive to swap to an easier section.
